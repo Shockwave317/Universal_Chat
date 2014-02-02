@@ -41,6 +41,12 @@ public class Main extends JavaPlugin implements Listener {
 			 player.sendMessage(ChatColor.WHITE + "[" + ChatColor.RED + pdfFile.getName() + ChatColor.WHITE + "] [" + ChatColor.BLUE + pdfFile.getVersion() + ChatColor.WHITE + "]");
 
 		}
+		
+		if (args.length == 1) {
+			if (args[0].equalsIgnoreCase("help")) {
+				player.sendMessage(">help sores<");
+			}
+		}
     	
     	return false;
     }

@@ -1,0 +1,9 @@
+name: UniversalChat
+version: 0.7
+main: me.Shockwave317.UniversalChat.Main
+author: [Viperific and Shockwave317]
+description: An advanced chat management plugin.
+commands:
+     uc:
+         usage: /uc
+         description: Default UniversalChat command.

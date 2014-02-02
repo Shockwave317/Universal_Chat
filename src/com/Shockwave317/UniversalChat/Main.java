@@ -42,9 +42,14 @@ public class Main extends JavaPlugin implements Listener {
 
 		}
 		
-		if (args.length == 1) {
+		if (args.length == 2) {
 			if (args[0].equalsIgnoreCase("help")) {
-				player.sendMessage(">help sores<");
+			if (args[1].equalsIgnoreCase("1")) {
+				player.sendMessage(ChatColor.RED + "_________.[Help 1]._________");
+				player.sendMessage(ChatColor.DARK_AQUA + "/uc " + ChatColor.BLUE + "The default UniversalChat command.")
+				player.sendMessage(ChatColor.DARK_AQUA + "/uc help <page> " + ChatColor.BLUE + "Shows the UniversalChat help!")
+				player.sendMessage(ChatColor.RED + "_________.[Help 1]._________");
+				
 			}
 		}
     	
